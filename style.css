@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+    background-image: url(../imgs/back.jpg);
+    font-family: 'Oswald', sans-serif;
+    background-size: cover;
+}
+h1{
+    color: rgb(17, 104, 235);
+}
+
+a:visited{
+    color: maroon;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+nav ul{
+    box-sizing: border-box;
+    padding: 0px;
+    list-style-type:none;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li a{
+    text-decoration:none ;
+    color:rgb(17, 104, 235);
+}
+nav ul li a:hover {
+    cursor: pointer;
+    color: green;
+}
+header{
+    text-align: center;
+}
+
+header h1{
+    transition: ease;
+    animation: ani 1s ease-in alternate infinite;
+}
+
+@keyframes ani{
+    0.0%{
+        transform: rotate(0deg);
+        letter-spacing: normal;
+    }
+    12%{
+        transform: rotate(240deg);
+    }
+    14%{
+        transform: rotate(270deg);
+    }
+    16%{
+        transform: rotate(315deg);
+    }
+    18%{
+        transform: rotate(0deg);
+        letter-spacing: 10px;
+    }
+    2%{
+        transform: rotate(45deg);
+    }
+    5%{
+        transform: rotate(90deg);
+    }
+    7%{
+        transform: rotate(135deg);
+        letter-spacing: 3px;
+    }
+    9%{
+        transform: rotate(180deg);
+    }
+}
+
+#prinnot{
+    text-align: left;
+    color: rgb(17, 104, 235);
+    padding-left: 45px;
+}
+.img{
+    float: left;
+    width: 200px;
+    height:110px;
+}
+a{
+  text-decoration: none;
+  color: rgb(17, 104, 235);  
+}
+#footer{
+    text-align: center;
+    color: rgb(17, 104, 235);
+}
+.alinhar{
+    display: flex;
+    justify-content: center;
+}
